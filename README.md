@@ -1,6 +1,6 @@
 # BeatViz
 
-Author: Steven Yi<stevenyi@gmail.com>
+Author: Steven Yi\<stevenyi@gmail.com\>
 
 A program for visualizing beat groups.
 
