@@ -18,7 +18,7 @@ BeatViz shows a 4x4 grid that represents additive groupings of beats. (Beat here
 ## Usage
 
 * BeatViz requires [Java](http://java.oracle.com).
-* To run BeatViz, double-click the beatviz.jar file or use ```java -jar beatviz.jar``` in a terminal. The program will open up the visualizer in the lower right-hand corner of the primary screen.
+* To run BeatViz, double-click the BeatViz.jar file or use ```java -jar BeatViz.jar``` in a terminal. The program will open up the visualizer in the lower right-hand corner of the primary screen.
 * The program is hard-coded to listen to UDP messages on port 9228. BeatViz will read in messages as strings then parse the string as a long integer and use that number as the current beat. While the program was built for the author's use with the [Csound Live Code](https://github.com/kunstmusik/csound-live-code) system, it may be used by any program that can send UDP messages.
 * To close the program, triple-click the beat grid visualizer. 
 * To move the visualizer location, click on the visualizer once to focus input on it, then use the arrow keys on a keyboard to move the visualizer up, down, left, or right by 10 pixels. 
